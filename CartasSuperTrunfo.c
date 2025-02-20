@@ -19,7 +19,7 @@ int main(){
 
     //Cadastrando a primeira carta!!
     printf("\n######## Cadastrando a Carta 1 ########\n");
-    printf("Digite o nome do estado: ");
+    printf("Digite o nome do estado: ");//por algum motivo o programa nao quer que isso seja char(%c) entao deixei do jeito que funciona kkkk
     scanf("%s", estado1);
     printf("Digite o codigo da carta: ");
     scanf("%s", codigo1);
@@ -36,7 +36,7 @@ int main(){
 
     //Cadastrando a segunda carta!!
     printf("\n######## Cadastrando a Carta 2 ########\n");
-    printf("Digite o nome do estado: ");
+    printf("Digite o nome do estado: "); //por algum motivo o programa nao quer que isso seja char (%c) entao deixei do jeito que funciona kkkk
     scanf("%s", estado2);
     printf("Digite o codigo da carta: ");
     scanf("%s", codigo2);
