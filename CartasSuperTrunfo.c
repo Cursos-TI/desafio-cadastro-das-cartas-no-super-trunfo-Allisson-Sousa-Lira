@@ -19,7 +19,6 @@ int main(){
     double pib1, pib2; 
     float pibPerCapita1, densiPopulacional1, pibPerCapita2, densiPopulacional2;
 
-
     //Cadastrando a primeira carta!!
     printf("\n######## Cadastrando a Carta 1 ########\n");
     printf("Digite o nome do estado: ");//por algum motivo o programa nao quer que isso seja char(%c) entao deixei do jeito que funciona kkkk
@@ -56,13 +55,13 @@ int main(){
 
     //Calcular a densiade populacional e o PIB per capita da carta 1
 
-    densiPopulacional1 =  populacao1/area1;
-    pibPerCapita1 =  pib1 / populacao1;
+    densiPopulacional1 = (float) populacao1/area1;
+    pibPerCapita1 = (float) pib1 / populacao1;
 
    //Calcular a densiade populacional e o PIB per capita da carta 2
 
-    densiPopulacional2 = populacao2/area2;
-    pibPerCapita2 = pib2 / populacao2;
+    densiPopulacional2 = (float) populacao2/area2;
+    pibPerCapita2 = (float) pib2 / populacao2;
     
     //Hora de Printar as cartas començada da primeira
 
